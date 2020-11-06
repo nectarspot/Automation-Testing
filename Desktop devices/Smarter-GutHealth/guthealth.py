@@ -55,5 +55,5 @@ class TestLink:
         driver.find_element_by_id('upsell2').click()
 
         #driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-
+        
+        driver.find_element_by_name("hello_automation").click()
